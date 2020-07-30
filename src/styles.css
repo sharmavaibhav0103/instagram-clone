@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+  margin-top: 30px; 
+}
+.home-box, .home-signup-box, .home-reg-box{
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid #dbdbdd;
+  padding: 10px 30px;
+}
+.logo-img {
+  height: 70px;
+  width: 200px;
+  margin: 22px auto 12px;
+}
+.typo{
+  outline: none;
+  border: none
+}
+.loginCreds, .loginPass{
+  width: 268px;
+  height: 30px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdd;
+  border-radius: 3px;
+  padding-left: 7px;
+  padding-bottom: 0;
+  padding-top: 9px; 
+  margin-bottom: 10px;
+}
+.login-div, .password-div{
+  position: relative;
+}
+.over-txt{
+  text-align: left;
+  color: gray;
+  font-size: 13px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  pointer-events: none;
+  transition: all 200ms;
+}
+.home-submit{
+  background-color: #0275d8;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  padding: 7px 7px;
+  margin-top: 10px;
+  opacity: 0.5;
+}
+.home-mid-text{
+ margin-top: 20px;
+ text-transform: uppercase;
+ color: gray;
+  font-size: small;
+  position: relative;
+}
+.home-mid-text::before{
+  content: '';
+  height: 1px;
+  position: absolute;
+  left: -120px;
+  top: 7px;
+  width: 100px;
+  background-color: lightgrey;
+}
+.home-mid-text::after{
+  content: '';
+  height: 1px;
+  position: absolute;
+  left: 40px;
+  top: 7px;
+  width: 100px;
+  background-color: lightgrey;
+}
+.loginWithFacebook{
+  color: #3b5998;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+i{
+  padding-right: 6px; 
+}
+.forgot-password {
+  color: #00376b;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.home-signup-box{
+  margin-top: 20px;
+  width: 333px;
+  padding: 15px 0px;
+  font-size: 15px;
+}
+.home-reg-box{
+  font-family: 'Lato', sans-serif;
+}
+.reg-text{
+  color: gray;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.reg-submit{
+margin-bottom: 30px;
+}
